@@ -1,0 +1,91 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cor de fundo do corpo */
+body {
+    background-color: #f0f0f0; /* Cor de fundo mais suave */
+    padding-top: 50px; /* Espaçamento superior reduzido */
+}
+
+/* Estilos do cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o cabeçalho horizontalmente */
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 48px; /* Tamanho do ícone aumentado */
+    margin-right: 12px; /* Espaçamento maior */
+}
+
+header h1 {
+    font-size: 32px; /* Tamanho do título reduzido */
+    font-weight: bold;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px; /* Largura máxima reduzida para um layout mais compacto */
+    margin: 0 auto;
+    padding: 0 20px; /* Espaçamento nas laterais */
+}
+
+/* Estilos do formulário */
+form {
+    display: flex;
+    flex-wrap: wrap; /* Quebra linha quando não há espaço suficiente */
+    justify-content: center; /* Centraliza os campos horizontalmente */
+    margin-bottom: 32px; /* Espaçamento reduzido */
+}
+
+form input {
+    flex: 1;
+    font-size: 18px; /* Tamanho da fonte reduzido */
+    padding: 6px; /* Espaçamento interno reduzido */
+    margin: 4px; /* Espaçamento externo entre os campos */
+    border: 1px solid #ccc; /* Borda suave */
+}
+
+form button {
+    background-color: green;
+    color: #fff;
+    font-size: 18px; /* Tamanho da fonte reduzido */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 6px 12px; /* Espaçamento interno ajustado */
+    margin-top: 4px; /* Espaçamento superior */
+}
+
+/* Estilos da tabela */
+table {
+    width: 100%;
+    margin-top: 24px;
+    border-collapse: collapse; /* Junta as bordas das células */
+}
+
+table th,
+table td {
+    padding: 12px; /* Espaçamento interno ajustado */
+    text-align: center;
+    border: 1px solid #ccc; /* Borda suave */
+}
+
+table th {
+    font-size: 20px; /* Tamanho da fonte dos cabeçalhos reduzido */
+    font-weight: bold;
+    background-color: #f0f0f0; /* Fundo mais suave para os cabeçalhos */
+}
+
+/* Remove o sublinhado de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}

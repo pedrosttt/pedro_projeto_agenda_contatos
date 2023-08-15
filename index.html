@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Cabeçalho -->
+        <header>
+            <img src="./media/contact_icon_certo.png" alt="Ícone de contatos" />
+            <h1>Agenda de contatos</h1>
+        </header>
+
+        <!-- Formulário para adicionar contatos -->
+        <form id="form-contatos">
+            <input type="text" id="nome-contato" required placeholder="Nome do contato" />
+            <input type="tel" id="numero-contato" required placeholder="Número do contato" />
+            <button type="submit" id="btn-adicionar">Adicionar</button>
+        </form>
+
+        <!-- Tabela para mostrar os contatos -->
+        <table>
+            <thead>
+                <!-- Cabeçalhos da tabela -->
+                <tr>
+                    <th>Nome do contato</th>
+                    <th>Número do contato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui serão inseridas as linhas da tabela com os contatos -->
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- Seu arquivo JavaScript -->
+    <script src="./main.js"></script>
+</body>
+</html>
